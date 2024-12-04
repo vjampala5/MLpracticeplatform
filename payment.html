@@ -1,0 +1,69 @@
+<!-- HTML Code for Payment Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Method</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="payment-container">
+        <h2 class="payment-title">Billing Address</h2>
+        <form class="payment-form">
+            <div class="form-section">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" placeholder="John Doe" required>
+            </div>
+            <div class="form-section">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="example@example.com" required>
+            </div>
+            <div class="form-section">
+                <label for="address">Address</label>
+                <input type="text" id="address" placeholder="Room - Street - Locality" required>
+            </div>
+            <div class="form-section">
+                <label for="city">City</label>
+                <input type="text" id="city" placeholder="City" required>
+            </div>
+            <div class="form-section">
+                <label for="state">State</label>
+                <input type="text" id="state" placeholder="State" required>
+            </div>
+            <div class="form-section">
+                <label for="zip">Zip Code</label>
+                <input type="text" id="zip" placeholder="Zip Code" required>
+            </div>
+
+            <h2 class="payment-title">Payment</h2>
+            <div class="form-section">
+                <p>Cards Accepted:</p>
+                <img src="cards.png" alt="Accepted cards" class="payment-cards">
+            </div>
+            <div class="form-section">
+                <label for="card-name">Name On Card</label>
+                <input type="text" id="card-name" placeholder="Mr. John Doe" required>
+            </div>
+            <div class="form-section">
+                <label for="card-number">Credit Card Number</label>
+                <input type="text" id="card-number" placeholder="1111-2222-3333-4444" required>
+            </div>
+            <div class="form-section">
+                <label for="exp-month">Exp Month</label>
+                <input type="text" id="exp-month" placeholder="Month" required>
+            </div>
+            <div class="form-section">
+                <label for="exp-year">Exp Year</label>
+                <input type="text" id="exp-year" placeholder="Year" required>
+            </div>
+            <div class="form-section">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" placeholder="1234" required>
+            </div>
+            <button type="submit" class="submit-btn">Proceed To Checkout</button>
+        </form>
+    </div>
+</body>
+</html>
+

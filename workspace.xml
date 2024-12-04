@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88a73495-c836-484d-bf2c-e093783d6008" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ml-practice-platform-backend/routes/problemRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ml-practice-platform-backend/seedProblems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ml-practice-platform-backend/utils/executeCode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ml-practice-platform-backend/utils/sendOtp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/compiler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/problemData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/payment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/upgrade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml-practice-platform-backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/ml-practice-platform-backend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml-practice-platform-backend/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/ml-practice-platform-backend/config/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml-practice-platform-backend/middleware/authMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/ml-practice-platform-backend/middleware/authMiddleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml-practice-platform-backend/models/Problem.js" beforeDir="false" afterPath="$PROJECT_DIR$/ml-practice-platform-backend/models/Problem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml-practice-platform-backend/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/ml-practice-platform-backend/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml-practice-platform-backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ml-practice-platform-backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml-practice-platform-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ml-practice-platform-backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml-practice-platform-backend/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/ml-practice-platform-backend/routes/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml-practice-platform-backend/routes/problems.js" beforeDir="false" afterPath="$PROJECT_DIR$/ml-practice-platform-backend/routes/execute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml-practice-platform-backend/routes/protected.js" beforeDir="false" afterPath="$PROJECT_DIR$/ml-practice-platform-backend/routes/protected.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml-practice-platform-backend/routes/solutions.js" beforeDir="false" afterPath="$PROJECT_DIR$/ml-practice-platform-backend/routes/solutions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml-practice-platform-backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/ml-practice-platform-backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/problems.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/problems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/compiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/problems.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/problems.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/signup.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ml-practice-platform-backend" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2nOqrVdOWwbCkcqe9peuse83Wp5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.problems.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.auth.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.login.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.signup.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/abhin/Downloads/IRPHASE2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88a73495-c836-484d-bf2c-e093783d6008" name="Changes" comment="" />
+      <created>1728854668998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728854668998</updated>
+      <workItem from="1728854670132" duration="40000" />
+      <workItem from="1729046482455" duration="6653000" />
+      <workItem from="1729129390882" duration="7420000" />
+      <workItem from="1729541931060" duration="21736000" />
+      <workItem from="1729736372282" duration="8041000" />
+      <workItem from="1730127170665" duration="75000" />
+      <workItem from="1730127315821" duration="749000" />
+      <workItem from="1730128805261" duration="6732000" />
+      <workItem from="1730150170910" duration="266000" />
+      <workItem from="1730170342263" duration="1043000" />
+      <workItem from="1730737922666" duration="192000" />
+      <workItem from="1730738149423" duration="5950000" />
+      <workItem from="1730908772555" duration="40044000" />
+      <workItem from="1731295483152" duration="1152000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

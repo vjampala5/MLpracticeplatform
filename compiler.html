@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Problem Compiler</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/monaco-editor@0.28.1/min/vs/editor/editor.main.css">
+    <script src="https://unpkg.com/monaco-editor@0.28.1/min/vs/loader.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><h1>ML Practice Platform</h1></div>
+            <ul class="nav-links">
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="problems.html">Problems</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside class="problem-panel">
+            <h3 id="problem-title">Problem Title</h3>
+            <p id="problem-description">Problem description...</p>
+            <h4>Sample Input:</h4>
+            <pre id="problem-sample-input">Sample input...</pre>
+            <h4>Sample Output:</h4>
+            <pre id="problem-sample-output">Sample output...</pre>
+        </aside>
+
+        <div class="editor-panel">
+            <div id="code-editor" style="height: 400px;"></div>
+            <button id="run-code-btn">Run Code</button>
+            <h4>Output:</h4>
+            <pre id="output"></pre>
+        </div>
+    </div>
+
+    <script src="js/problemData.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jwt-decode/build/jwt-decode.min.js"></script>
+
+
+    <script src="js/compiler.js"></script>
+
+    <script>
+        require.config({ paths: { 'vs': 'https://unpkg.com/monaco-editor@0.28.1/min/vs' } });
+        require(['vs/editor/editor.main'], function() {
+            window.editor = monaco.editor.create(document.getElementById('code-editor'), {
+                value: '# Write your Python code here',
+                language: 'python',
+                theme: 'vs-dark',
+                automaticLayout: true
+            });
+        });
+    </script>
+</body>
+</html>
